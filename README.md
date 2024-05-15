@@ -1,5 +1,6 @@
 # Beyond the Lens
 
+Beyond the Lens: False Data Injection Attacks on IIoT-Cameras through MQTT Manipulation
 Case study using Fischertechnik's Lernfabrik 4.0 (9V)
 
 This repository includes 
