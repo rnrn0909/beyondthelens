@@ -7,7 +7,7 @@ Case study using Fischertechnik's Lernfabrik 4.0 (9V)
 This repository includes 
 - The script for attack
 - Example image
-- Malicious program that can be used for the attack
+- Malicious program that can be used for the attack: By uploading this program on the main controller (SSC), the attacker can reduce the expose of original view. 
 
 
 [ Required Libraries ]
