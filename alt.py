@@ -94,7 +94,7 @@ def on_disconnect(client, userdata, rc):
 def publish(client):
     msg_count = 0
     while not FLAG_EXIT:
-        now = datetime.datetime(1990, 1, 1, 12, 00, 59)
+        now = datetime.datetime.now()
         utc_now = now.astimezone(datetime.timezone.utc)
         current_ts = utc_now.strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3]
         cts = str(current_ts) + 'Z'
